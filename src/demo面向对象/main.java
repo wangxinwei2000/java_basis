@@ -10,5 +10,10 @@ public class main {
         Person NoNamePeron = new Person();
         NoNamePeron.printInformation();
 
+
+        //匿名对象使用
+        //只能使用一次
+
+        new Person("Jack",89).printInformation();
     }
 }

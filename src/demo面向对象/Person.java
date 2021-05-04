@@ -11,7 +11,7 @@ public class Person {
     }
     private String name;
     private int age;
-
+    static final String nationality = "China";
     public String getName() {
         return name;
     }
@@ -27,7 +27,8 @@ public class Person {
         this.age = age;
     }
     protected void printInformation(){
-        System.out.println("name is "+this.name+" and age is "+this.age);
+        System.out.println("name is "+this.name+" and age is "+this.age+" ,nationality is " +
+               nationality );
     }
 
 
